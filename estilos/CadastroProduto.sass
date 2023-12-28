@@ -1,0 +1,206 @@
+main
+    display: flex
+    background: #fff
+
+.div_img_containerr
+    width: 45%
+    height: 85vh
+    margin-right: 100px
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: center
+
+.div_span
+    width: 45%
+    display: flex
+    justify-content: flex-start
+
+.span_1
+    color: #000
+    display: block
+    font-size: 1.2em
+    font-weight: 400
+    font-family: Roboto
+
+.div_img_produto
+    width: 70%
+    height: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 0.2em dashed #a3a3a3
+    background: rgba(0, 0, 0, 0.2)
+
+.div_detalhes_produto
+    width: 70%
+    height: 20%
+    display: flex
+    margin-top: 0.2em
+    flex-direction: column
+    align-items: flex-start
+    padding: 0 0.5em 0 0.5em
+    justify-content: space-around
+    border: 0.2em dashed #a3a3a3
+    background: rgba(0, 0, 0, 0.2)
+
+.preço_detalhes_produtos
+    color: #000
+    font-size: 1.3em
+    font-weight: 400
+    font-family: Roboto
+
+.div_btns
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+.nome_durável, .nome_cruelty_free
+    width: 48%
+    height: 2em
+    color: #000
+    font-weight: 400
+    font-size: 0.8em
+    border-radius: 0.5em
+    background: #b0b0b0
+    border: 0.2em solid #b0b0b0
+
+    &:hover
+        background: #b0b0b0
+
+    &:active
+        background: #b0b0b0
+
+.div_form
+    width: 45%
+    height: 85vh
+    overflow-y: scrool
+
+.h1_cadastrar_produto
+    color: #000
+    font-size: 2em
+    font-weight: 400
+    text-align: center
+    margin: 0.5em 0 0 0
+    font-family: Rowdies
+
+.form_cadastrar
+    width: 100%
+    padding: 1em
+    height: 74.4vh
+    margin: 0.5em 0 0 0
+
+.div_nome_preço_produto
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+.section_nome_preço
+    width: 45%
+
+.label
+    display: block
+    color: #000
+    font-size: 1.2em
+    font-weight: 400
+    font-family: RocknRoll One
+
+#input_nome_produto, #input_preço_produto
+    width: 100%
+    height: 2em
+    border: none
+    outline: none
+    color: #d95f83
+    border-radius: 0.8em
+    background: #c8c8c8
+
+    &:focus
+        border: 0.2em solid #000
+
+.div_material_durabilidade_produto
+    display: flex
+    margin-top: 1em
+
+.section_material_durabilidade, .section_selo_file
+    width: 28%
+    display: flex
+    align-items: center
+    flex-direction: column
+
+.section_span1
+    width: 100%
+    display: flex
+    margin-bottom: 0.3em
+    justify-content: flex-start
+
+.span1, .span2
+    font-size: 1em
+    font-weight: 400
+    font-family: RocknRoll One
+
+.section_span2
+    width: 100%
+    display: flex
+    margin-bottom: 0.3em
+    justify-content: flex-end
+
+.select
+    outline: none
+    color: #d95f83
+    border-radius: 0.8em
+    background: #c8c8c8
+    border: 0.1em solid #000
+
+.div_selo_file_produto
+    display: flex
+    margin-top: 1.2em
+    margin-bottom: 8em
+    justify-content: flex-start
+
+.section_span
+    width: 100%
+    display: flex
+    margin-bottom: 0.3em
+    justify-content: center
+
+.label_file
+    width: 10em
+    height: 6em
+    display: flex
+    color: #d95f83
+    align-items: center
+    border-radius: 0.8em
+    background: #c8c8c8
+    justify-content: center
+
+    &:focus
+        outline: none
+        border: 0.2em solid #000
+
+    &:hover
+        cursor: pointer
+
+.img_file
+    max-width: 100%
+    max-height: 100%
+
+#input_file_produto
+    display: none
+
+.btn_enviar
+    width: 100%
+    height: 2.5em
+    border: none
+    color: #fff
+    margin-top: 1em
+    font-weight: 400
+    border-radius: 0.8em
+    background: #d95f83
+    font-family: RocknRoll One
+
+    &:focus
+        outline: none
+        border: 0.2em solid #000
+
+    &:hover
+        cursor: pointer
